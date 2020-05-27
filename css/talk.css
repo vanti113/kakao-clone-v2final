@@ -1,0 +1,87 @@
+.phone-screen.talk {
+  /* background-color: blanchedalmond; */
+  background-image: url("../images/bush.png");
+}
+
+.main-talk {
+  margin-top: 110px;
+}
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.talk-section__list {
+  margin: 20px 0px;
+  display: flex;
+}
+
+.talk-section__list.right {
+  justify-content: flex-end;
+}
+.talk__name {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.talk__comment {
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 0px 15px 15px 15px;
+  font-size: 15px;
+}
+.talk__comment.right {
+  background-color: rgb(177, 235, 191);
+  border-radius: 15px 0px 15px 15px;
+}
+.comment.talk {
+  margin-left: 5px;
+  position: relative;
+  bottom: -40px;
+}
+.comment.talk.right {
+  bottom: -25px;
+  right: -5px;
+}
+.footer-input {
+  position: fixed;
+  width: 67%;
+  height: 50px;
+  margin: 0px auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px 13px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__icon-left {
+  display: flex;
+  align-items: center;
+}
+.footer__icon-left i {
+  margin-right: 13px;
+}
+.footer__icon-right i {
+  margin-left: 5px;
+}
+.talk-input {
+  background-color: inherit;
+  height: 30px;
+  width: 60px;
+  font-size: 15px;
+  color: grey;
+  border: none;
+
+  transition: width 0.5s ease-in-out;
+}
+.talk-input:focus {
+  outline: none;
+  width: 210px;
+  border-bottom: 0.5px solid rgb(75, 26, 26);
+}

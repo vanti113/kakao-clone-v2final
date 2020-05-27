@@ -1,0 +1,45 @@
+.header-B .setting {
+  padding: 5px;
+}
+.header-B__title.setting {
+  display: flex;
+  align-items: center;
+}
+.header-B__title.setting span {
+  font-weight: 700;
+  margin-top: 3px;
+  margin-left: 18px;
+  font-size: 20px;
+}
+.header-B__icon.setting {
+  opacity: 0.8;
+}
+
+.main-section.setting {
+  margin-top: 120px;
+}
+
+.setting__line {
+  padding: 0px 3px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.setting__line span {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.setting__line i {
+  font-weight: lighter;
+}
+.setting__line .plus {
+  color: red;
+  margin-left: 3px;
+}
+.first-icon {
+  width: 23px;
+}
+
+.setting__line.seperate {
+  border-bottom: 0.8px solid rgba(206, 206, 206, 0.308);
+}

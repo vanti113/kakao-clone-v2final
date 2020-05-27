@@ -1,0 +1,39 @@
+.phone-screen.chat {
+  background-image: url("../images/double-bubble-outline.png");
+}
+
+.main-part4.chat {
+  margin-top: 95px;
+  border: none;
+}
+.M-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(117, 253, 253);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.M-avatar i {
+  font-size: 23px;
+}
+.chat-day {
+  margin-bottom: 20px;
+}
+.chat-day__new {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  position: relative;
+  bottom: -10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.part__line.friend.chat {
+  padding-bottom: 12px;
+}
